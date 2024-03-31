@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="./Simple_orange_circle.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="./icon/Simple_orange_circle.svg" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/page1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <title>Sundown Portfolio</title>
 </head>
 <body>
@@ -29,10 +32,17 @@
                     </h1>
                 </div>
             </div>
-            <div class="video-1">
-                <video autoplay loop muted src="https://player.vimeo.com/progressive_redirect/playback/915350257/rendition/1080p/file.mp4?loc=external&signature=768f26c5396775e76c340cb808a897a724e78acb8231106dd94af9d732695176"></video>
-            </div>
+                <div class="hero-shape">
+                    <div class="hero-1"></div>
+                    <div class="hero-2"></div>
+                    <div class="hero-3"></div>
+                </div>
+                <video autoplay loop muted src="./videos/video-1.mp4">
+                </video>
+                <div class="animation"></div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="script/script.js"></script>
 </body>
 </html>

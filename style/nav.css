@@ -62,29 +62,3 @@
 .nav-right h4:hover a{
     color: white;
 }
-.center-1{
-    height: 65vh;
-    width: 100%;    
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    border-bottom: 1px solid rgb(209, 202, 202);
-    padding-bottom: 2vw;
-}
-.left h3{
-    line-height: 2vw;
-    width: 25vw;
-    font-size: 1.8vw;
-}
-.center-1 h1{
-    line-height: 10vw;
-    font-size: 10vw;
-    line-height: 8vw;
-    text-align: right;
-}
-#page1 video{
-    margin-top: 2vw;
-    border-radius: 30px;
-    width: 100%;
-    z-index: -1;
-}
