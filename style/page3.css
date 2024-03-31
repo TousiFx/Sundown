@@ -1,0 +1,22 @@
+.page3{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text1{
+    width: 50%;
+}
+.info-image{
+    width: 22%;
+}
+.text1 h1{
+    font-size: 4vw;
+}
+.info-image img{
+    width: 100%;
+    border-radius: 1vh;
+}
+.info-image p{
+    font-weight: 100;
+}
