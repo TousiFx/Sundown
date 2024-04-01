@@ -1,22 +1,60 @@
 .page3{
     height: 80vh;
+    width: 100%;
+    padding: 4.5vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    z-index: 9;
 }
-.text1{
-    width: 50%;
-}
-.info-image{
-    width: 22%;
-}
-.text1 h1{
+
+.page3 h1 {
     font-size: 4vw;
+    width: 60%;
+    line-height: 4vw;
 }
-.info-image img{
+
+.info-image {
+    width: 20%;
+}
+
+.info-image img {
     width: 100%;
-    border-radius: 1vh;
+    border-radius: 15px;
 }
-.info-image p{
-    font-weight: 100;
+
+.info-image p {
+    font-weight: 200;
+    margin-top: 2vw;
+    font-size: 1vw;
+}
+.page3 .gooey {
+    z-index: -1;
+    height: 32vw;
+    width: 32vw;
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(to top right, #ff2d03, #ff5c0b);
+    top: 28%;
+    left: 25%;
+    filter: blur(20px);
+    animation-name: gooey;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes gooey {
+    from {
+        filter: blur(20px);
+        transform: translate(10%, -10%) skew(0);
+    }
+
+    to {
+        filter: blur(30px);
+        transform: translate(-10%, 10%) skew(-12deg);
+    }
 }
