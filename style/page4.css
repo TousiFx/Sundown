@@ -1,0 +1,19 @@
+.page4{
+    min-height: 120vh;
+    width: 100%;
+}
+.brand-sections{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.616);
+}
+.brand-sections h1{
+    font-size: 3.5vw;
+}
+.p-tag{
+    font-family: neu;
+    font-weight: 100;
+}
