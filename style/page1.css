@@ -1,11 +1,12 @@
 .center-1{
-    height: 65vh;
+    height: 75vh;
     width: 100%;    
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     border-bottom: 1px solid rgb(209, 202, 202);
     padding-bottom: 2vw;
+    padding: 10vh 2vw;  
 }
 .left h3{
     line-height: 2vw;
@@ -13,23 +14,24 @@
     font-size: 1.8vw;
 }
 .center-1 h1{
-    line-height: 10vw;
-    font-size: 10vw;
-    line-height: 8vw;
+    font-size: 11vw;
+    line-height: 9vw;
     text-align: right;
 }
 #page1 video{
     position: relative;
     margin-top: 2vw;
-    border-radius: 30px;
+    border-radius: 3%;
     width: 100%;
+    padding: 1vh 2vw;
 }
 .hero-shape {
+    padding: 0 50vw;
     position: absolute;
     width: 46vw;
     height: 36vw;
     right: 0;
-    top: 65vh;
+    top: 80vh;
 }
 
 .hero-1 {
