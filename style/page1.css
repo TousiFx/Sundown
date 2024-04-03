@@ -28,7 +28,7 @@
 .hero-shape {
     padding: 0 50vw;
     position: absolute;
-    width: 46vw;
+    width: 1vw;
     height: 36vw;
     right: 0;
     top: 80vh;
@@ -37,7 +37,7 @@
 .hero-1 {
     background-color: #FE320A;
     height: 100%;
-    width: 100%;
+    width: 50%;
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
     filter: blur(30px);
