@@ -7,15 +7,18 @@
     font-family: neu;
     src: url(../fonts/NeueHaasDisplayMediu.ttf);
 }
-
+body{
+    background-color: black;
+}  
+.main{
+    position: relative;
+    z-index: 10;
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: neu;
-}
-body{
-    background-color:#EFEAE3;
 }
 #page1{
     min-height: 100vh;

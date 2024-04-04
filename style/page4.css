@@ -1,6 +1,7 @@
 .page4{
     min-height: 100vh;
     width: 100%;
+    background-color:#EFEAE3;
 }
 .elem{
     height: 130px;
@@ -42,7 +43,7 @@
     top: 0;
 }
 .more{
-    height: 15vh;
+    height: 30vh;
     width: 100%;
 }
 .more .project{
@@ -55,7 +56,7 @@
     align-items: center;
     padding: 0 2vw;
     overflow: hidden;
-    /* border-bottom: 1px solid #bdb8b8; */
+    
 }
 .more .project h3{
     padding: 10px 20px;

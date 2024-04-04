@@ -1,0 +1,40 @@
+.page5{
+    height: 120vh;
+    position: relative;
+    background-color: #EFEAE3;
+}
+.box-1{
+    min-height: 110vh;
+    background-color: #0B0500;
+    margin: 0 2vw;
+    border-radius: 2vw;
+    position: relative;
+    display: flex;
+}
+.box-1 img{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    right: 0;
+    height: 100%;
+    width: 55%;
+    border-radius: 2vw;
+}
+.box-1 h1{
+    position: absolute;
+    top: 24vh;
+    left: 10vw;
+    line-height: 9vh;
+}
+.box-1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 4.5vw;
+}
+.box-1 p{
+    color: rgb(145, 141, 141);
+    position: absolute;
+    left: 10vw;
+    top: 60vh;
+}

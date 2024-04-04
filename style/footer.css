@@ -1,0 +1,25 @@
+.page6{
+    height: 100vh;
+}
+.footer{
+    position: fixed;
+    z-index: 9;
+    height: 60vh;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.footer h1{
+    font-size: 22vw;
+    color: white;
+}
+.hero-shape {
+    padding: 0 50vw;
+    position: absolute;
+    width: 1vw;
+    height: 36vw;
+    right: 0;
+    top: 80vh;
+}
