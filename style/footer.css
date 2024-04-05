@@ -4,7 +4,6 @@
 }
 .footer{
     position: fixed;
-    height: 60vh;
     width: 100%;
     background-color: black;   
     color: white;
@@ -15,8 +14,4 @@
 }
 .footer h1{
     font-size: 22.5vw;
-}
-.footer-div{
-    height: 20vh;
-    background-color: brown;
 }
