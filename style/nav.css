@@ -11,9 +11,9 @@
     background-color: black;
 }   */
 .main{
-    background-color: black;
+    background: linear-gradient(orange , rgb(0, 0, 0));
     position: relative;
-    z-index: 100;
+    z-index: 10;
 }
 *{
     padding: 0;
